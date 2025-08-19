@@ -3,7 +3,7 @@
         <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white">Peta Lokasi Ekraf</h2>
 
         <div id="map-container" class="">
-            <div id="map" class="rounded-lg shadow-md" style="height: 400px; width: 100%;"></div>
+            <div id="map" class="rounded-lg shadow-md sectorPage2-cardUp" style="height: 400px; width: 100%;"></div>
         </div>
     </div>
 </section>
@@ -43,7 +43,7 @@
                         map.fitBounds(boundaryLayer.getBounds());
                     })
                     .catch(err => console.error('Error loading geojson:', err));
-    
+
             const mapDiv = document.getElementById('map-container');
             mapDiv.classList.remove('hidden');
             console.log('map loaded');
