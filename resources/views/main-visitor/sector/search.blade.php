@@ -69,5 +69,10 @@
             </div>
         </div>
         <x-search.sec-horizontal :sector="$sector" />
+        
+        <img id="unsplash-image" class="absolute inset-0 z-0 w-full h-full object-cover transition-opacity ease-in-out duration-1000 opacity-100" src="" alt="Rotating Unsplash Image" >
     </div>
 </section>
+
+@vite('resources/js/visitor/sector/page1.js')
+@vite('resources/js/visitor/sector/switchbg.js')

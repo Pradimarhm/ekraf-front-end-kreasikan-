@@ -1,12 +1,14 @@
 <section class="py-6 bg-white dark:bg-gray-900">
     <div class="max-w-screen-xl mx-auto px-4">
-        <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white">Peta Lokasi Ekraf</h2>
+        <h2 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white sectorPage2-textBoxUp">Peta Lokasi Ekraf</h2>
 
         <div id="map-container" class="">
             <div id="map" class="rounded-lg shadow-md sectorPage2-cardUp" style="height: 400px; width: 100%;"></div>
         </div>
     </div>
 </section>
+
+@vite('resources/js/visitor/sector/page2.js')
 
 <script>
     const ekrafs = @json($ekrafs);

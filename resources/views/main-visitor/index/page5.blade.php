@@ -1,8 +1,8 @@
 <section id="information" class="flex flex-col items-center px-4 py-10 bg-white dark:bg-gray-900">
-    <h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6">Informasi Buat Kamu</h1>
+    <h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6 page5-textboxUp">Informasi Buat Kamu</h1>
 
     <!-- Tombol Navigasi -->
-    <div class="flex flex-row gap-4 justify-center mb-8 w-full max-w-xl">
+    <div class="flex flex-row gap-4 justify-center mb-8 w-full max-w-xl page5-cardUp">
         <button
             class="w-1/2 text-center py-2 px-4 font-medium text-white border border-gray-300 dark:text-white bg-primary-600 dark:border-gray-600 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none switch-section"
             data-target="Event">
@@ -17,7 +17,7 @@
 
     <!-- Konten Event -->
 
-    <div id="section-event" class="w-full max-w-7xl fade-section show">
+    <div id="section-event" class="w-full max-w-7xl fade-section show page5-cardUp13 page5-cardUp13-3">
         <div class="flow-root max-w-3xl mx-auto mt-8 sm:mt-12 lg:mt-16">
             <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-700">
 
@@ -78,7 +78,7 @@
     </div>
 
     <!-- Konten Artikel -->
-    <div id="section-article" class="w-full max-w-7xl fade-section hidden">
+    <div id="section-article" class="w-full max-w-7xl fade-section hidden page5-cardUp13-2">
         <div class="flex flex-row gap-6 overflow-x-auto px-2 pb-6 dark:dark scrollbar-custom ">
             @for ($i = 0; $i < 6; $i++)
                 <x-ui.card-article size="w-[300px]"
@@ -142,3 +142,5 @@
         });
     });
 </script>
+
+@vite('resources/js/visitor/index/page5.js')

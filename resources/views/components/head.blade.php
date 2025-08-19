@@ -32,6 +32,12 @@
     <!-- Flowbite Datepicker Plugin -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/datepicker.min.js"></script>
 
+    {{-- animasi gsap --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    
     {{-- efek scrollbar card-low --}}
     <style>
         .scrollbar-custom::-webkit-scrollbar {

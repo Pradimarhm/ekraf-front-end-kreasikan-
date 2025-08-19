@@ -14,9 +14,10 @@
         <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
                 <div class="shrink-0">
-                    <img class="size-8"
-                        src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                    <img class="w-5 h-auto"
+                        src="{{asset('img/Logo/logo_kreasikan.svg')}}"
                         alt="Your Company">
+                    <h1 class="text-black dark:text-white">KREASIKAN</h1>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">

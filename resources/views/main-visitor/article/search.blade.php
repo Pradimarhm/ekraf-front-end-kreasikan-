@@ -1,5 +1,5 @@
 <div class="lg:col-span-3 lg:mr-3">
-    <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 space-y-4 sticky top-16 z-[99]">
+    <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 space-y-4 sticky top-16 z-[99] articelPage1-cardDRight">
         <form class="flex items-center">
             <label for="search" class="sr-only">Cari</label>
             <div class="relative w-full">
@@ -36,3 +36,5 @@
         </div>
     </div>
 </div>
+
+@vite('resources/js/visitor/article/page1.js')
